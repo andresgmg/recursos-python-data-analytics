@@ -4,13 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
 
 [dev-packages]
-pandas = "*"
 
 [requires]
 python_version = "3.11"
-
-[scripts]
-hola = "pipenv run python hola.py"
